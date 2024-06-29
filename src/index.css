@@ -1,0 +1,40 @@
+input:hover,input:focus,textarea:hover,textarea:focus,textarea:focus-visible,select:hover,select:focus{
+border:1px solid #0B3447F2;
+outline: none;
+
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 35px;
+  height: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #FF3131;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+
+.swiper-button-prev:after, .swiper-button-next:after{
+ display: none
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
